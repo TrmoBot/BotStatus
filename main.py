@@ -25,8 +25,8 @@ try:
     LIST_BOTS = config("BOTS")
     CHANNEL_ID = config("CHANNEL_ID", cast=int)
     MESSAGE_ID = config("MESSAGE_ID", cast=int)
-    CHANNEL_NAME = config("CHANNEL_NAME", default="@BotzHub")
-    TIME_ZONE = config("TIME_ZONE", default="Asia/Kolkata")
+    CHANNEL_NAME = config("CHANNEL_NAME", default="@ParadiseXChannel")
+    TIME_ZONE = config("TIME_ZONE", default="Asia/Rangoon")
 except BaseException as ex:
     log.info(ex)
     exit(1)
