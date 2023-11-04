@@ -88,7 +88,7 @@ async def check_bots():
 
                 # save stats in a dict.
                 bot_stats[bot] = {
-                    "response_time": f"`{round(time_taken_for_response * 1000, 3)}ms`",  # convert to ms for readability
+                    "response_time": f"Bot is Alive`{round(time_taken_for_response * 1000, 3)}ms`",  # convert to ms for readability
                     "status": "✅",
                 }
         except BaseException:
